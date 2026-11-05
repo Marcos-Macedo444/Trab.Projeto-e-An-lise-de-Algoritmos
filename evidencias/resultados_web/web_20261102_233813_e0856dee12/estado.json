@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "web_20261102_233813_e0856dee12",
+  "config": {
+    "tipo": "comparacao",
+    "semente": 42,
+    "repeticoes": 2,
+    "avancado": false,
+    "n": 5
+  },
+  "inicio": "2026-11-02T23:38:13.722932-03:00",
+  "fim": "2026-11-02T23:38:14.170429-03:00",
+  "estado": "concluido",
+  "razao": null,
+  "sequencia": 8,
+  "concluidas": 8,
+  "planejadas": 8,
+  "atual": null,
+  "cancelamento": false,
+  "arquivos": [
+    "comparacao_repeticoes.csv",
+    "comparacao_resumo.csv",
+    "resultados.json",
+    "metadados.json",
+    "tarefa.zip"
+  ],
+  "duracao_total_s": 0.4399591004475951,
+  "origem": "web"
+}

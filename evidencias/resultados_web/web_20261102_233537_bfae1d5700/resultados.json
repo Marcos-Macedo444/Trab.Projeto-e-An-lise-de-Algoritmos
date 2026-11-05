@@ -1,0 +1,1271 @@
+{
+  "schema": 1,
+  "origem": "web",
+  "config": {
+    "tipo": "benchmark",
+    "semente": 42,
+    "repeticoes": 2,
+    "avancado": false,
+    "nmin": 3,
+    "nmax": 8,
+    "sem_fixar": true,
+    "nmax_sem_fixar": 7
+  },
+  "amostras": [
+    {
+      "n": 3,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticao": 1,
+      "tempo_s": 2.9399991035461426e-05,
+      "rota_indices": [
+        0,
+        1,
+        2
+      ],
+      "custo": 108.6518545386293,
+      "rotas_observadas": 2,
+      "arestas_observadas": 6
+    },
+    {
+      "n": 3,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticao": 2,
+      "tempo_s": 2.3400411009788513e-05,
+      "rota_indices": [
+        0,
+        1,
+        2
+      ],
+      "custo": 108.6518545386293,
+      "rotas_observadas": 2,
+      "arestas_observadas": 6
+    },
+    {
+      "n": 4,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticao": 1,
+      "tempo_s": 3.71001660823822e-05,
+      "rota_indices": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "custo": 186.5037719552042,
+      "rotas_observadas": 6,
+      "arestas_observadas": 24
+    },
+    {
+      "n": 4,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticao": 2,
+      "tempo_s": 2.7099624276161194e-05,
+      "rota_indices": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "custo": 186.5037719552042,
+      "rotas_observadas": 6,
+      "arestas_observadas": 24
+    },
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticao": 1,
+      "tempo_s": 5.660019814968109e-05,
+      "rota_indices": [
+        0,
+        3,
+        4,
+        1,
+        2
+      ],
+      "custo": 136.21155936157538,
+      "rotas_observadas": 24,
+      "arestas_observadas": 120
+    },
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticao": 2,
+      "tempo_s": 7.260031998157501e-05,
+      "rota_indices": [
+        0,
+        3,
+        4,
+        1,
+        2
+      ],
+      "custo": 136.21155936157538,
+      "rotas_observadas": 24,
+      "arestas_observadas": 120
+    },
+    {
+      "n": 6,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticao": 1,
+      "tempo_s": 0.0002508005127310753,
+      "rota_indices": [
+        0,
+        5,
+        4,
+        2,
+        3,
+        1
+      ],
+      "custo": 280.85383025117955,
+      "rotas_observadas": 120,
+      "arestas_observadas": 720
+    },
+    {
+      "n": 6,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticao": 2,
+      "tempo_s": 0.00023250002413988113,
+      "rota_indices": [
+        0,
+        5,
+        4,
+        2,
+        3,
+        1
+      ],
+      "custo": 280.85383025117955,
+      "rotas_observadas": 120,
+      "arestas_observadas": 720
+    },
+    {
+      "n": 7,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticao": 1,
+      "tempo_s": 0.0013447999954223633,
+      "rota_indices": [
+        0,
+        2,
+        6,
+        5,
+        4,
+        1,
+        3
+      ],
+      "custo": 243.86105872745554,
+      "rotas_observadas": 720,
+      "arestas_observadas": 5040
+    },
+    {
+      "n": 7,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticao": 2,
+      "tempo_s": 0.0010759001597762108,
+      "rota_indices": [
+        0,
+        2,
+        6,
+        5,
+        4,
+        1,
+        3
+      ],
+      "custo": 243.86105872745554,
+      "rotas_observadas": 720,
+      "arestas_observadas": 5040
+    },
+    {
+      "n": 8,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticao": 1,
+      "tempo_s": 0.00841519981622696,
+      "rota_indices": [
+        0,
+        1,
+        4,
+        6,
+        2,
+        7,
+        5,
+        3
+      ],
+      "custo": 287.5383466872993,
+      "rotas_observadas": 5040,
+      "arestas_observadas": 40320
+    },
+    {
+      "n": 8,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticao": 2,
+      "tempo_s": 0.008774000220000744,
+      "rota_indices": [
+        0,
+        1,
+        4,
+        6,
+        2,
+        7,
+        5,
+        3
+      ],
+      "custo": 287.5383466872993,
+      "rotas_observadas": 5040,
+      "arestas_observadas": 40320
+    },
+    {
+      "n": 3,
+      "modo": "sem_fixar",
+      "algoritmo": "bruta",
+      "repeticao": 1,
+      "tempo_s": 2.7900561690330505e-05,
+      "rota_indices": [
+        0,
+        1,
+        2
+      ],
+      "custo": 108.6518545386293,
+      "rotas_observadas": 6,
+      "arestas_observadas": 18
+    },
+    {
+      "n": 3,
+      "modo": "sem_fixar",
+      "algoritmo": "bruta",
+      "repeticao": 2,
+      "tempo_s": 3.319978713989258e-05,
+      "rota_indices": [
+        0,
+        1,
+        2
+      ],
+      "custo": 108.6518545386293,
+      "rotas_observadas": 6,
+      "arestas_observadas": 18
+    },
+    {
+      "n": 4,
+      "modo": "sem_fixar",
+      "algoritmo": "bruta",
+      "repeticao": 1,
+      "tempo_s": 5.189981311559677e-05,
+      "rota_indices": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "custo": 186.50377195520417,
+      "rotas_observadas": 24,
+      "arestas_observadas": 96
+    },
+    {
+      "n": 4,
+      "modo": "sem_fixar",
+      "algoritmo": "bruta",
+      "repeticao": 2,
+      "tempo_s": 5.9099867939949036e-05,
+      "rota_indices": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "custo": 186.50377195520417,
+      "rotas_observadas": 24,
+      "arestas_observadas": 96
+    },
+    {
+      "n": 5,
+      "modo": "sem_fixar",
+      "algoritmo": "bruta",
+      "repeticao": 1,
+      "tempo_s": 0.0002143997699022293,
+      "rota_indices": [
+        0,
+        3,
+        4,
+        1,
+        2
+      ],
+      "custo": 136.21155936157538,
+      "rotas_observadas": 120,
+      "arestas_observadas": 600
+    },
+    {
+      "n": 5,
+      "modo": "sem_fixar",
+      "algoritmo": "bruta",
+      "repeticao": 2,
+      "tempo_s": 0.00017009954899549484,
+      "rota_indices": [
+        0,
+        3,
+        4,
+        1,
+        2
+      ],
+      "custo": 136.21155936157538,
+      "rotas_observadas": 120,
+      "arestas_observadas": 600
+    },
+    {
+      "n": 6,
+      "modo": "sem_fixar",
+      "algoritmo": "bruta",
+      "repeticao": 1,
+      "tempo_s": 0.0010126996785402298,
+      "rota_indices": [
+        0,
+        5,
+        4,
+        2,
+        3,
+        1
+      ],
+      "custo": 280.85383025117955,
+      "rotas_observadas": 720,
+      "arestas_observadas": 4320
+    },
+    {
+      "n": 6,
+      "modo": "sem_fixar",
+      "algoritmo": "bruta",
+      "repeticao": 2,
+      "tempo_s": 0.0009373994544148445,
+      "rota_indices": [
+        0,
+        5,
+        4,
+        2,
+        3,
+        1
+      ],
+      "custo": 280.85383025117955,
+      "rotas_observadas": 720,
+      "arestas_observadas": 4320
+    },
+    {
+      "n": 7,
+      "modo": "sem_fixar",
+      "algoritmo": "bruta",
+      "repeticao": 1,
+      "tempo_s": 0.007566399872303009,
+      "rota_indices": [
+        0,
+        2,
+        6,
+        5,
+        4,
+        1,
+        3
+      ],
+      "custo": 243.86105872745554,
+      "rotas_observadas": 5040,
+      "arestas_observadas": 35280
+    },
+    {
+      "n": 7,
+      "modo": "sem_fixar",
+      "algoritmo": "bruta",
+      "repeticao": 2,
+      "tempo_s": 0.0071772001683712006,
+      "rota_indices": [
+        0,
+        2,
+        6,
+        5,
+        4,
+        1,
+        3
+      ],
+      "custo": 243.86105872745554,
+      "rotas_observadas": 5040,
+      "arestas_observadas": 35280
+    }
+  ],
+  "resumo": [
+    {
+      "n": 3,
+      "modo": "fixo",
+      "repeticoes_concluidas": 2,
+      "tempo_s": 2.640020102262497e-05,
+      "minimo_s": 2.3400411009788513e-05,
+      "maximo_s": 2.9399991035461426e-05,
+      "rotas_observadas_por_execucao": 2,
+      "arestas_observadas_por_execucao": 6,
+      "rotas_esperadas_por_execucao": 2,
+      "arestas_esperadas_por_execucao": 6,
+      "custo_otimo": 108.6518545386293,
+      "rota_otima": "v1 -> v2 -> v3 -> v1",
+      "repeticoes_previstas": 2,
+      "parcial": false
+    },
+    {
+      "n": 3,
+      "modo": "sem_fixar",
+      "repeticoes_concluidas": 2,
+      "tempo_s": 3.055017441511154e-05,
+      "minimo_s": 2.7900561690330505e-05,
+      "maximo_s": 3.319978713989258e-05,
+      "rotas_observadas_por_execucao": 6,
+      "arestas_observadas_por_execucao": 18,
+      "rotas_esperadas_por_execucao": 6,
+      "arestas_esperadas_por_execucao": 18,
+      "custo_otimo": 108.6518545386293,
+      "rota_otima": "v1 -> v2 -> v3 -> v1",
+      "repeticoes_previstas": 2,
+      "parcial": false
+    },
+    {
+      "n": 4,
+      "modo": "fixo",
+      "repeticoes_concluidas": 2,
+      "tempo_s": 3.20998951792717e-05,
+      "minimo_s": 2.7099624276161194e-05,
+      "maximo_s": 3.71001660823822e-05,
+      "rotas_observadas_por_execucao": 6,
+      "arestas_observadas_por_execucao": 24,
+      "rotas_esperadas_por_execucao": 6,
+      "arestas_esperadas_por_execucao": 24,
+      "custo_otimo": 186.5037719552042,
+      "rota_otima": "v1 -> v2 -> v4 -> v3 -> v1",
+      "repeticoes_previstas": 2,
+      "parcial": false
+    },
+    {
+      "n": 4,
+      "modo": "sem_fixar",
+      "repeticoes_concluidas": 2,
+      "tempo_s": 5.5499840527772903e-05,
+      "minimo_s": 5.189981311559677e-05,
+      "maximo_s": 5.9099867939949036e-05,
+      "rotas_observadas_por_execucao": 24,
+      "arestas_observadas_por_execucao": 96,
+      "rotas_esperadas_por_execucao": 24,
+      "arestas_esperadas_por_execucao": 96,
+      "custo_otimo": 186.50377195520417,
+      "rota_otima": "v2 -> v1 -> v3 -> v4 -> v2",
+      "repeticoes_previstas": 2,
+      "parcial": false
+    },
+    {
+      "n": 5,
+      "modo": "fixo",
+      "repeticoes_concluidas": 2,
+      "tempo_s": 6.460025906562805e-05,
+      "minimo_s": 5.660019814968109e-05,
+      "maximo_s": 7.260031998157501e-05,
+      "rotas_observadas_por_execucao": 24,
+      "arestas_observadas_por_execucao": 120,
+      "rotas_esperadas_por_execucao": 24,
+      "arestas_esperadas_por_execucao": 120,
+      "custo_otimo": 136.21155936157538,
+      "rota_otima": "v1 -> v4 -> v5 -> v2 -> v3 -> v1",
+      "repeticoes_previstas": 2,
+      "parcial": false
+    },
+    {
+      "n": 5,
+      "modo": "sem_fixar",
+      "repeticoes_concluidas": 2,
+      "tempo_s": 0.00019224965944886208,
+      "minimo_s": 0.00017009954899549484,
+      "maximo_s": 0.0002143997699022293,
+      "rotas_observadas_por_execucao": 120,
+      "arestas_observadas_por_execucao": 600,
+      "rotas_esperadas_por_execucao": 120,
+      "arestas_esperadas_por_execucao": 600,
+      "custo_otimo": 136.21155936157538,
+      "rota_otima": "v1 -> v4 -> v5 -> v2 -> v3 -> v1",
+      "repeticoes_previstas": 2,
+      "parcial": false
+    },
+    {
+      "n": 6,
+      "modo": "fixo",
+      "repeticoes_concluidas": 2,
+      "tempo_s": 0.0002416502684354782,
+      "minimo_s": 0.00023250002413988113,
+      "maximo_s": 0.0002508005127310753,
+      "rotas_observadas_por_execucao": 120,
+      "arestas_observadas_por_execucao": 720,
+      "rotas_esperadas_por_execucao": 120,
+      "arestas_esperadas_por_execucao": 720,
+      "custo_otimo": 280.85383025117955,
+      "rota_otima": "v1 -> v6 -> v5 -> v3 -> v4 -> v2 -> v1",
+      "repeticoes_previstas": 2,
+      "parcial": false
+    },
+    {
+      "n": 6,
+      "modo": "sem_fixar",
+      "repeticoes_concluidas": 2,
+      "tempo_s": 0.0009750495664775372,
+      "minimo_s": 0.0009373994544148445,
+      "maximo_s": 0.0010126996785402298,
+      "rotas_observadas_por_execucao": 720,
+      "arestas_observadas_por_execucao": 4320,
+      "rotas_esperadas_por_execucao": 720,
+      "arestas_esperadas_por_execucao": 4320,
+      "custo_otimo": 280.85383025117955,
+      "rota_otima": "v1 -> v6 -> v5 -> v3 -> v4 -> v2 -> v1",
+      "repeticoes_previstas": 2,
+      "parcial": false
+    },
+    {
+      "n": 7,
+      "modo": "fixo",
+      "repeticoes_concluidas": 2,
+      "tempo_s": 0.001210350077599287,
+      "minimo_s": 0.0010759001597762108,
+      "maximo_s": 0.0013447999954223633,
+      "rotas_observadas_por_execucao": 720,
+      "arestas_observadas_por_execucao": 5040,
+      "rotas_esperadas_por_execucao": 720,
+      "arestas_esperadas_por_execucao": 5040,
+      "custo_otimo": 243.86105872745554,
+      "rota_otima": "v1 -> v3 -> v7 -> v6 -> v5 -> v2 -> v4 -> v1",
+      "repeticoes_previstas": 2,
+      "parcial": false
+    },
+    {
+      "n": 7,
+      "modo": "sem_fixar",
+      "repeticoes_concluidas": 2,
+      "tempo_s": 0.007371800020337105,
+      "minimo_s": 0.0071772001683712006,
+      "maximo_s": 0.007566399872303009,
+      "rotas_observadas_por_execucao": 5040,
+      "arestas_observadas_por_execucao": 35280,
+      "rotas_esperadas_por_execucao": 5040,
+      "arestas_esperadas_por_execucao": 35280,
+      "custo_otimo": 243.86105872745554,
+      "rota_otima": "v1 -> v3 -> v7 -> v6 -> v5 -> v2 -> v4 -> v1",
+      "repeticoes_previstas": 2,
+      "parcial": false
+    },
+    {
+      "n": 8,
+      "modo": "fixo",
+      "repeticoes_concluidas": 2,
+      "tempo_s": 0.008594600018113852,
+      "minimo_s": 0.00841519981622696,
+      "maximo_s": 0.008774000220000744,
+      "rotas_observadas_por_execucao": 5040,
+      "arestas_observadas_por_execucao": 40320,
+      "rotas_esperadas_por_execucao": 5040,
+      "arestas_esperadas_por_execucao": 40320,
+      "custo_otimo": 287.5383466872993,
+      "rota_otima": "v1 -> v2 -> v5 -> v7 -> v3 -> v8 -> v6 -> v4 -> v1",
+      "repeticoes_previstas": 2,
+      "parcial": false
+    }
+  ],
+  "c": 2.1361656231634378e-07,
+  "c_provisorio": false,
+  "projecoes": [
+    {
+      "n": 3,
+      "rotas_fixas": 2,
+      "rotas_sem_fixar": 6,
+      "arestas_fixas": 6,
+      "arestas_sem_fixar": 18,
+      "tempo_estimado_s": 1.2816993738980626e-06,
+      "natureza": "ajuste_na_amostra"
+    },
+    {
+      "n": 4,
+      "rotas_fixas": 6,
+      "rotas_sem_fixar": 24,
+      "arestas_fixas": 24,
+      "arestas_sem_fixar": 96,
+      "tempo_estimado_s": 5.12679749559225e-06,
+      "natureza": "ajuste_na_amostra"
+    },
+    {
+      "n": 5,
+      "rotas_fixas": 24,
+      "rotas_sem_fixar": 120,
+      "arestas_fixas": 120,
+      "arestas_sem_fixar": 600,
+      "tempo_estimado_s": 2.5633987477961254e-05,
+      "natureza": "ajuste_na_amostra"
+    },
+    {
+      "n": 6,
+      "rotas_fixas": 120,
+      "rotas_sem_fixar": 720,
+      "arestas_fixas": 720,
+      "arestas_sem_fixar": 4320,
+      "tempo_estimado_s": 0.0001538039248677675,
+      "natureza": "ajuste_na_amostra"
+    },
+    {
+      "n": 7,
+      "rotas_fixas": 720,
+      "rotas_sem_fixar": 5040,
+      "arestas_fixas": 5040,
+      "arestas_sem_fixar": 35280,
+      "tempo_estimado_s": 0.0010766274740743726,
+      "natureza": "ajuste_na_amostra"
+    },
+    {
+      "n": 8,
+      "rotas_fixas": 5040,
+      "rotas_sem_fixar": 40320,
+      "arestas_fixas": 40320,
+      "arestas_sem_fixar": 322560,
+      "tempo_estimado_s": 0.00861301979259498,
+      "natureza": "ajuste_na_amostra"
+    },
+    {
+      "n": 9,
+      "rotas_fixas": 40320,
+      "rotas_sem_fixar": 362880,
+      "arestas_fixas": 362880,
+      "arestas_sem_fixar": 3265920,
+      "tempo_estimado_s": 0.07751717813335483,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 10,
+      "rotas_fixas": 362880,
+      "rotas_sem_fixar": 3628800,
+      "arestas_fixas": 3628800,
+      "arestas_sem_fixar": 36288000,
+      "tempo_estimado_s": 0.7751717813335482,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 11,
+      "rotas_fixas": 3628800,
+      "rotas_sem_fixar": 39916800,
+      "arestas_fixas": 39916800,
+      "arestas_sem_fixar": 439084800,
+      "tempo_estimado_s": 8.526889594669031,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 12,
+      "rotas_fixas": 39916800,
+      "rotas_sem_fixar": 479001600,
+      "arestas_fixas": 479001600,
+      "arestas_sem_fixar": 5748019200,
+      "tempo_estimado_s": 102.32267513602838,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 13,
+      "rotas_fixas": 479001600,
+      "rotas_sem_fixar": 6227020800,
+      "arestas_fixas": 6227020800,
+      "arestas_sem_fixar": 80951270400,
+      "tempo_estimado_s": 1330.194776768369,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 14,
+      "rotas_fixas": 6227020800,
+      "rotas_sem_fixar": 87178291200,
+      "arestas_fixas": 87178291200,
+      "arestas_sem_fixar": 1220496076800,
+      "tempo_estimado_s": 18622.726874757165,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 15,
+      "rotas_fixas": 87178291200,
+      "rotas_sem_fixar": 1307674368000,
+      "arestas_fixas": 1307674368000,
+      "arestas_sem_fixar": 19615115520000,
+      "tempo_estimado_s": 279340.90312135743,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 16,
+      "rotas_fixas": 1307674368000,
+      "rotas_sem_fixar": 20922789888000,
+      "arestas_fixas": 20922789888000,
+      "arestas_sem_fixar": 334764638208000,
+      "tempo_estimado_s": 4469454.449941719,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 17,
+      "rotas_fixas": 20922789888000,
+      "rotas_sem_fixar": 355687428096000,
+      "arestas_fixas": 355687428096000,
+      "arestas_sem_fixar": 6046686277632000,
+      "tempo_estimado_s": 75980725.64900923,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 18,
+      "rotas_fixas": 355687428096000,
+      "rotas_sem_fixar": 6402373705728000,
+      "arestas_fixas": 6402373705728000,
+      "arestas_sem_fixar": 115242726703104000,
+      "tempo_estimado_s": 1367653061.682166,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 19,
+      "rotas_fixas": 6402373705728000,
+      "rotas_sem_fixar": 121645100408832000,
+      "arestas_fixas": 121645100408832000,
+      "arestas_sem_fixar": 2311256907767808000,
+      "tempo_estimado_s": 25985408171.961155,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 20,
+      "rotas_fixas": 121645100408832000,
+      "rotas_sem_fixar": 2432902008176640000,
+      "arestas_fixas": 2432902008176640000,
+      "arestas_sem_fixar": 48658040163532800000,
+      "tempo_estimado_s": 519708163439.22314,
+      "natureza": "estimativa_extrapolada"
+    }
+  ],
+  "instancias": {
+    "3": {
+      "coordenadas": [
+        [
+          27.18754143840908,
+          48.80282078509078
+        ],
+        [
+          8.187934237116657,
+          33.87334869920697
+        ],
+        [
+          7.233360770535402,
+          1.1036367079899967
+        ]
+      ],
+      "matriz": [
+        [
+          0.0,
+          24.16348920513316,
+          51.70475304792866
+        ],
+        [
+          24.16348920513316,
+          0.0,
+          32.78361228556747
+        ],
+        [
+          51.70475304792866,
+          32.78361228556747,
+          0.0
+        ]
+      ],
+      "origem_coordenadas": "geradas nesta tarefa"
+    },
+    "4": {
+      "coordenadas": [
+        [
+          88.8268076452488,
+          39.99943959710129
+        ],
+        [
+          58.86201827742321,
+          85.97866735427614
+        ],
+        [
+          22.853920336460064,
+          51.57172840235198
+        ],
+        [
+          58.373048557360605,
+          94.71995219767291
+        ]
+      ],
+      "matriz": [
+        [
+          0.0,
+          54.88149038614305,
+          66.98014428209504,
+          62.624004517856015
+        ],
+        [
+          54.88149038614305,
+          0.0,
+          49.803820790853294,
+          8.754950148375272
+        ],
+        [
+          66.98014428209504,
+          49.803820790853294,
+          0.0,
+          55.88718713859083
+        ],
+        [
+          62.624004517856015,
+          8.754950148375272,
+          55.88718713859083,
+          0.0
+        ]
+      ],
+      "origem_coordenadas": "geradas nesta tarefa"
+    },
+    "5": {
+      "coordenadas": [
+        [
+          35.184625582788264,
+          43.018624599009804
+        ],
+        [
+          45.36708635895742,
+          34.34697408782532
+        ],
+        [
+          51.24443649244089,
+          39.241540145547184
+        ],
+        [
+          4.090872254284261,
+          41.853260739614676
+        ],
+        [
+          2.3659862260269615,
+          10.245584696998078
+        ]
+      ],
+      "matriz": [
+        [
+          0.0,
+          13.37460392110172,
+          16.497996648756676,
+          31.115584021172385,
+          46.380332401223846
+        ],
+        [
+          13.37460392110172,
+          0.0,
+          7.64853067490489,
+          41.95319046405947,
+          49.294741942833944
+        ],
+        [
+          16.497996648756676,
+          7.64853067490489,
+          0.0,
+          47.22583725910468,
+          56.83193057446267
+        ],
+        [
+          31.115584021172385,
+          41.95319046405947,
+          47.22583725910468,
+          0.0,
+          31.6547060739075
+        ],
+        [
+          46.380332401223846,
+          49.294741942833944,
+          56.83193057446267,
+          31.6547060739075,
+          0.0
+        ]
+      ],
+      "origem_coordenadas": "geradas nesta tarefa"
+    },
+    "6": {
+      "coordenadas": [
+        [
+          54.815782841632966,
+          13.189146337587566
+        ],
+        [
+          71.15468422680244,
+          30.22500559178156
+        ],
+        [
+          93.8325274775271,
+          19.271834726532976
+        ],
+        [
+          76.19850071956039,
+          16.56415474015609
+        ],
+        [
+          96.60871461541211,
+          87.36083929044366
+        ],
+        [
+          10.751956323594069,
+          64.93164540857067
+        ]
+      ],
+      "matriz": [
+        [
+          0.0,
+          23.604664772095372,
+          39.48804198766488,
+          21.64743184685992,
+          85.13571037902086,
+          67.96254128211007
+        ],
+        [
+          23.604664772095372,
+          0.0,
+          25.184450093416135,
+          14.562243330028974,
+          62.54926982359935,
+          69.66376666188356
+        ],
+        [
+          39.48804198766488,
+          25.184450093416135,
+          0.0,
+          17.84069591157564,
+          68.14557768137863,
+          94.80084184638474
+        ],
+        [
+          21.64743184685992,
+          14.562243330028974,
+          17.84069591157564,
+          0.0,
+          73.68003375804973,
+          81.37975379006969
+        ],
+        [
+          85.13571037902086,
+          62.54926982359935,
+          68.14557768137863,
+          73.68003375804973,
+          0.0,
+          88.73810727399089
+        ],
+        [
+          67.96254128211007,
+          69.66376666188356,
+          94.80084184638474,
+          81.37975379006969,
+          88.73810727399089,
+          0.0
+        ]
+      ],
+      "origem_coordenadas": "geradas nesta tarefa"
+    },
+    "7": {
+      "coordenadas": [
+        [
+          6.688397634275168,
+          41.32428164282593
+        ],
+        [
+          11.050473394613869,
+          75.2111461418534
+        ],
+        [
+          51.12851098756519,
+          4.967399448053067
+        ],
+        [
+          4.480748443565707,
+          73.59343862230145
+        ],
+        [
+          15.434974770859611,
+          73.3744889835985
+        ],
+        [
+          63.04437186278283,
+          50.427913829065254
+        ],
+        [
+          85.57982138654458,
+          60.255722914603396
+        ]
+      ],
+      "matriz": [
+        [
+          0.0,
+          34.16646441343299,
+          57.41730190263087,
+          32.34458543736917,
+          33.22225763238756,
+          57.08653037474385,
+          81.13110507251149
+        ],
+        [
+          34.16646441343299,
+          0.0,
+          80.87294384950263,
+          6.765963608477341,
+          4.753647214010502,
+          57.59838610402109,
+          76.01505374600794
+        ],
+        [
+          57.41730190263087,
+          80.87294384950263,
+          0.0,
+          82.97919620668083,
+          77.15930550735537,
+          46.99623504264739,
+          65.14362209724544
+        ],
+        [
+          32.34458543736917,
+          6.765963608477341,
+          82.97919620668083,
+          0.0,
+          10.956414257131165,
+          62.97888159481651,
+          82.1885289593991
+        ],
+        [
+          33.22225763238756,
+          4.753647214010502,
+          77.15930550735537,
+          10.956414257131165,
+          0.0,
+          52.85073322839589,
+          71.3610645233869
+        ],
+        [
+          57.08653037474385,
+          57.59838610402109,
+          46.99623504264739,
+          62.97888159481651,
+          52.85073322839589,
+          0.0,
+          24.585205239326346
+        ],
+        [
+          81.13110507251149,
+          76.01505374600794,
+          65.14362209724544,
+          82.1885289593991,
+          71.3610645233869,
+          24.585205239326346,
+          0.0
+        ]
+      ],
+      "origem_coordenadas": "geradas nesta tarefa"
+    },
+    "8": {
+      "coordenadas": [
+        [
+          49.75365687586023,
+          26.617372307254062
+        ],
+        [
+          63.741116144369094,
+          24.247975418376267
+        ],
+        [
+          47.31685799874552,
+          97.03361491117533
+        ],
+        [
+          8.518806501099673,
+          31.737891751820513
+        ],
+        [
+          67.64439534894834,
+          8.52413172296076
+        ],
+        [
+          15.331752856953774,
+          82.52738498040316
+        ],
+        [
+          97.97228526139108,
+          31.93386437176482
+        ],
+        [
+          18.896898678495432,
+          97.23752503414661
+        ]
+      ],
+      "matriz": [
+        [
+          0.0,
+          14.18672119995379,
+          70.45839347602104,
+          41.55156561203289,
+          25.444918509469687,
+          65.65665993178834,
+          48.51083601891362,
+          77.06714927659041
+        ],
+        [
+          14.18672119995379,
+          0.0,
+          74.61571933587314,
+          55.72793131831758,
+          16.201075554010565,
+          75.76249753533357,
+          35.08341243553682,
+          85.66491810093306
+        ],
+        [
+          70.45839347602104,
+          74.61571933587314,
+          0.0,
+          75.95275019982545,
+          90.81375110063854,
+          35.12090058264314,
+          82.48605840658561,
+          28.420690827334226
+        ],
+        [
+          41.55156561203289,
+          55.72793131831758,
+          75.95275019982545,
+          0.0,
+          63.519397913411716,
+          51.24440321112139,
+          89.45369342618376,
+          66.31671552000842
+        ],
+        [
+          25.444918509469687,
+          16.201075554010565,
+          90.81375110063854,
+          63.519397913411716,
+          0.0,
+          90.62612237749332,
+          38.31183223535164,
+          101.22442681695448
+        ],
+        [
+          65.65665993178834,
+          75.76249753533357,
+          35.12090058264314,
+          51.24440321112139,
+          90.62612237749332,
+          0.0,
+          96.89768791702703,
+          15.135999640909205
+        ],
+        [
+          48.51083601891362,
+          35.08341243553682,
+          82.48605840658561,
+          89.45369342618376,
+          38.31183223535164,
+          96.89768791702703,
+          0.0,
+          102.55478954754821
+        ],
+        [
+          77.06714927659041,
+          85.66491810093306,
+          28.420690827334226,
+          66.31671552000842,
+          101.22442681695448,
+          15.135999640909205,
+          102.55478954754821,
+          0.0
+        ]
+      ],
+      "origem_coordenadas": "geradas nesta tarefa"
+    }
+  },
+  "plano": [
+    {
+      "n": 3,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticoes": 2,
+      "rotas_esperadas": 2,
+      "arestas_esperadas": 6
+    },
+    {
+      "n": 4,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticoes": 2,
+      "rotas_esperadas": 6,
+      "arestas_esperadas": 24
+    },
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticoes": 2,
+      "rotas_esperadas": 24,
+      "arestas_esperadas": 120
+    },
+    {
+      "n": 6,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticoes": 2,
+      "rotas_esperadas": 120,
+      "arestas_esperadas": 720
+    },
+    {
+      "n": 7,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticoes": 2,
+      "rotas_esperadas": 720,
+      "arestas_esperadas": 5040
+    },
+    {
+      "n": 8,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticoes": 2,
+      "rotas_esperadas": 5040,
+      "arestas_esperadas": 40320
+    },
+    {
+      "n": 3,
+      "modo": "sem_fixar",
+      "algoritmo": "bruta",
+      "repeticoes": 2,
+      "rotas_esperadas": 6,
+      "arestas_esperadas": 18
+    },
+    {
+      "n": 4,
+      "modo": "sem_fixar",
+      "algoritmo": "bruta",
+      "repeticoes": 2,
+      "rotas_esperadas": 24,
+      "arestas_esperadas": 96
+    },
+    {
+      "n": 5,
+      "modo": "sem_fixar",
+      "algoritmo": "bruta",
+      "repeticoes": 2,
+      "rotas_esperadas": 120,
+      "arestas_esperadas": 600
+    },
+    {
+      "n": 6,
+      "modo": "sem_fixar",
+      "algoritmo": "bruta",
+      "repeticoes": 2,
+      "rotas_esperadas": 720,
+      "arestas_esperadas": 4320
+    },
+    {
+      "n": 7,
+      "modo": "sem_fixar",
+      "algoritmo": "bruta",
+      "repeticoes": 2,
+      "rotas_esperadas": 5040,
+      "arestas_esperadas": 35280
+    }
+  ]
+}

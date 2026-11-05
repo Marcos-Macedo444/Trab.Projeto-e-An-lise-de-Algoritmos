@@ -1,0 +1,2 @@
+n;modo;repeticao;tempo_s;rotas_observadas;arestas_observadas;custo_otimo;rota_otima
+5;fixo;1;8.169934153556824e-05;24;120;136.21155936157538;v1 -> v4 -> v5 -> v2 -> v3 -> v1

@@ -1,0 +1,502 @@
+{
+  "pacote": "Repositorio",
+  "preparado_em": "2026-11-05T19:03:21.621537-03:00",
+  "arquivos": [
+    {
+      "arquivo": ".gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "arquivo": ".gitignore",
+      "sha256": "fb9a9ddadc6dbf78812c4e0f8b834123f6c713894bdbf3cbeab19ab547764703"
+    },
+    {
+      "arquivo": "ALTERACOES.md",
+      "sha256": "7e99409fed33e2c6d80426479a73d53384ac1ddbf60adcfca5ecc1f4203de2f2"
+    },
+    {
+      "arquivo": "DADOS_ACADEMICOS.md",
+      "sha256": "36a15a52de67d3a96b6919545b0b09d02bb1f374fac2b4db235c9d864a875971"
+    },
+    {
+      "arquivo": "LICENCAS_DEPENDENCIAS.md",
+      "sha256": "4c7f2a2497f7abba7600bb9dbfe067d556be07662d51dc903b6a71051f99ab45"
+    },
+    {
+      "arquivo": "README.md",
+      "sha256": "ce90b24c40d6f80b03291bf02c062354e6a0ad1668b4f1d638853913e1e10fc2"
+    },
+    {
+      "arquivo": "RELATORIO.md",
+      "sha256": "0e3997e62dff0e9be4e34ee64ea0d77e5ec6a7beb43b9457cd4d2c6b39b1af63"
+    },
+    {
+      "arquivo": "RESULTADOS_SELECIONADOS.md",
+      "sha256": "3db1d19d45950ca41071f2a50057e37be72d05cbf60bda1b3d8422c55fe56cc3"
+    },
+    {
+      "arquivo": "docs/DEPENDENCIAS.json",
+      "sha256": "28f19aead1f81b5ec6e4299ffc4c93d25c9a5f6505b37872337028b03487a59b"
+    },
+    {
+      "arquivo": "docs/DESENVOLVIMENTO.md",
+      "sha256": "720b0d3b2049a60e40f0f407f72579c6438f96b56109ecf1fe8a2fd514366a54"
+    },
+    {
+      "arquivo": "docs/REVISAO_UNIDADE4.md",
+      "sha256": "949ba9f13e857515348f68dee98b9d0727e22a6e499c8bfdb0be078ea017b0fe"
+    },
+    {
+      "arquivo": "docs/TESTES.txt",
+      "sha256": "296ad7af1ea01415d16a37a97d23ec09d42a83a6fc5de76360df508e0c4df7b1"
+    },
+    {
+      "arquivo": "docs/VALIDACAO.md",
+      "sha256": "c5dc9a832757a41ea9dccefffa5b369a13a445b6f7c1df5c98531d939bb416a6"
+    },
+    {
+      "arquivo": "docs/licencas/blinker/LICENSE.txt",
+      "sha256": "9eb73a1f38597a4aa17025d2ae1be3839624c795e985d4f0e9769ce29faca467"
+    },
+    {
+      "arquivo": "docs/licencas/click/LICENSE.txt",
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
+    },
+    {
+      "arquivo": "docs/licencas/contourpy/LICENSE",
+      "sha256": "0e55e86a8fbf3e9b482ae8dc9e111e1b0dc09a7d300e7f480dda68c1125ed614"
+    },
+    {
+      "arquivo": "docs/licencas/cycler/LICENSE",
+      "sha256": "f1218143d766da3fea66f13396b7f15df46a83303f29bf96ba6e98eb4d42f408"
+    },
+    {
+      "arquivo": "docs/licencas/flask/LICENSE.txt",
+      "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea"
+    },
+    {
+      "arquivo": "docs/licencas/fonttools/LICENSE",
+      "sha256": "22bef80697ecfaa17f97e62b9a26dfa12820be05583e8dd12ad169b241274c99"
+    },
+    {
+      "arquivo": "docs/licencas/fonttools/LICENSE.external",
+      "sha256": "b082a5f86775b2641f01bccb8b9c82908481de5f502bb254b1e13bfc2a9f303d"
+    },
+    {
+      "arquivo": "docs/licencas/itsdangerous/LICENSE.txt",
+      "sha256": "63af09891b6be8ad1a4252ed43af0f4efba7fc948e228367bed7f3c5ae0b09d7"
+    },
+    {
+      "arquivo": "docs/licencas/jinja2/LICENSE.txt",
+      "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b"
+    },
+    {
+      "arquivo": "docs/licencas/kiwisolver/LICENSE",
+      "sha256": "b24c2bf6185f31a124ad6bacccae3071bdc7ad7882de00b00110aa62abb76a15"
+    },
+    {
+      "arquivo": "docs/licencas/markupsafe/LICENSE.txt",
+      "sha256": "4631ec0db5fd90a547e336817264c6798214338146f8ac94b4a57f96ee8c9ec4"
+    },
+    {
+      "arquivo": "docs/licencas/matplotlib/LICENSE",
+      "sha256": "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+    },
+    {
+      "arquivo": "docs/licencas/matplotlib/LICENSE_DEJAVU",
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+    },
+    {
+      "arquivo": "docs/licencas/matplotlib/LICENSE_STIX",
+      "sha256": "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/LICENSE",
+      "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/LICENSE.md",
+      "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/LICENSE.txt",
+      "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+      "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/numpy/_core/src/common/pythoncapi-compat/COPYING",
+      "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/numpy/_core/src/highway/LICENSE",
+      "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+      "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/numpy/_core/src/umath/svml/LICENSE",
+      "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/numpy/fft/pocketfft/LICENSE.md",
+      "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/numpy/linalg/lapack_lite/LICENSE.txt",
+      "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/numpy/ma/LICENSE",
+      "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/numpy/random/LICENSE.md",
+      "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/numpy/random/src/distributions/LICENSE.md",
+      "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/numpy/random/src/mt19937/LICENSE.md",
+      "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/numpy/random/src/pcg64/LICENSE.md",
+      "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/numpy/random/src/philox/LICENSE.md",
+      "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/numpy/random/src/sfc64/LICENSE.md",
+      "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
+    },
+    {
+      "arquivo": "docs/licencas/numpy/numpy/random/src/splitmix64/LICENSE.md",
+      "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+    },
+    {
+      "arquivo": "docs/licencas/packaging/LICENSE",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+    },
+    {
+      "arquivo": "docs/licencas/packaging/LICENSE.APACHE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "arquivo": "docs/licencas/packaging/LICENSE.BSD",
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+    },
+    {
+      "arquivo": "docs/licencas/pillow/LICENSE",
+      "sha256": "988ffe8ab3480b0f4e9a0ab2702bffd73d9fb6b47198043fb3ba101a62fac236"
+    },
+    {
+      "arquivo": "docs/licencas/pyparsing/LICENSE",
+      "sha256": "a5425f9dc14ac74d4c5f0b679e941f2442e32cca7452a4418d5b1a49893ebe4e"
+    },
+    {
+      "arquivo": "docs/licencas/python-dateutil/LICENSE",
+      "sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e"
+    },
+    {
+      "arquivo": "docs/licencas/tzdata/LICENSE",
+      "sha256": "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46"
+    },
+    {
+      "arquivo": "docs/licencas/tzdata/licenses/LICENSE_APACHE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "arquivo": "docs/licencas/waitress/LICENSE.txt",
+      "sha256": "3e671db11df687516cc1db5b3d65e4aa383eaca3c20cea3faf53a0f7335d0a3c"
+    },
+    {
+      "arquivo": "docs/licencas/werkzeug/LICENSE.txt",
+      "sha256": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b"
+    },
+    {
+      "arquivo": "evidencias/README.md",
+      "sha256": "11ded088083ec0269267dd22439b5935ae3ceef47bba7d9977394cc0798dd9fe"
+    },
+    {
+      "arquivo": "evidencias/indice.json",
+      "sha256": "c6403e795dbe4f7240fe9114da4a66ae77f74e7006baed4b2bc11605e70b4126"
+    },
+    {
+      "arquivo": "evidencias/meus_resultados/execucao_20261102_224749_115690/grafico_tsp.png",
+      "sha256": "e30e5d442ddd054159484e6c267d70786370d2875daab435906d6f7bfe561f65"
+    },
+    {
+      "arquivo": "evidencias/meus_resultados/execucao_20261102_224749_115690/metadados.json",
+      "sha256": "0b90efd72e924f2cdc81a585880ecf7f09a15cdd452645c19fa50d33cdbbe209"
+    },
+    {
+      "arquivo": "evidencias/meus_resultados/execucao_20261102_224749_115690/projecoes.csv",
+      "sha256": "b71722e33f8bc5d796c144a50d1b8b5ce0a23c076dbd17ffb7d35d5c8a6a066e"
+    },
+    {
+      "arquivo": "evidencias/meus_resultados/execucao_20261102_224749_115690/repeticoes.csv",
+      "sha256": "f59161dcf30119e12e332f7111cd0e9cd4483e8619b1c41ba2cdf7918bd2e557"
+    },
+    {
+      "arquivo": "evidencias/meus_resultados/execucao_20261102_224749_115690/resultados_tsp.csv",
+      "sha256": "d4b70f44fb6b64198ee4a72bbf0c543fe532a7cfd4105049e913344769ac85ba"
+    },
+    {
+      "arquivo": "evidencias/meus_resultados/execucao_20261102_224818_019551/grafico_tsp.png",
+      "sha256": "9665a19f074fa61ff4d1b10a01645910ac68604fe833e59c7e97d22a19e72912"
+    },
+    {
+      "arquivo": "evidencias/meus_resultados/execucao_20261102_224818_019551/metadados.json",
+      "sha256": "e76ec980a4e13cc75ea7cfc0b6f471f41b068396f326e2a10f86dda00231f951"
+    },
+    {
+      "arquivo": "evidencias/meus_resultados/execucao_20261102_224818_019551/projecoes.csv",
+      "sha256": "77cfeeff9c35da569c37ee6952090e38315f2b0839ab5c8c5f30f870ff031ea9"
+    },
+    {
+      "arquivo": "evidencias/meus_resultados/execucao_20261102_224818_019551/repeticoes.csv",
+      "sha256": "c8f3d53a4b94a01464883ec4662157a233c5266752ab46e7429839eff91b34be"
+    },
+    {
+      "arquivo": "evidencias/meus_resultados/execucao_20261102_224818_019551/resultados_tsp.csv",
+      "sha256": "a15fc46cf6444356ad647460cd9c09fe1aabb393bb07f9db10eda5a495c6df16"
+    },
+    {
+      "arquivo": "evidencias/resultados/execucao_20261102_224154_225839/grafico_tsp.png",
+      "sha256": "730794ce294a057edf5b56d3342f5f0e8ef7711f14867edd403a3f0c466e3c8c"
+    },
+    {
+      "arquivo": "evidencias/resultados/execucao_20261102_224154_225839/metadados.json",
+      "sha256": "21832e286e4052d349ce2674970a378b2a0e2e8008842d110c0ddb6e092bf673"
+    },
+    {
+      "arquivo": "evidencias/resultados/execucao_20261102_224154_225839/projecoes.csv",
+      "sha256": "13eeba517e076cbdac6417f852babc0c948bcad8247ea444fd174b8c1aaadcdb"
+    },
+    {
+      "arquivo": "evidencias/resultados/execucao_20261102_224154_225839/repeticoes.csv",
+      "sha256": "35c8227d59d4e9e8627609ca59b54138227a79d9e7308fd7f54414d6c36bb427"
+    },
+    {
+      "arquivo": "evidencias/resultados/execucao_20261102_224154_225839/resultados_tsp.csv",
+      "sha256": "2cf89d713f10f7dd7f45d75b908b3a5f3d3dfd660b1d1e43c3be1429db421fbd"
+    },
+    {
+      "arquivo": "evidencias/resultados/execucao_20261102_224647_285820/grafico_tsp.png",
+      "sha256": "edb12be839977fb9f222d14bc76afa853abe50235385431153214e794fde4bd6"
+    },
+    {
+      "arquivo": "evidencias/resultados/execucao_20261102_224647_285820/metadados.json",
+      "sha256": "7c16e9f9edaca8333152c8f599d10efb08fe41ca9969becf214b7e998ebcee77"
+    },
+    {
+      "arquivo": "evidencias/resultados/execucao_20261102_224647_285820/projecoes.csv",
+      "sha256": "e447b4a5255e156d647ba11f743eebd3191214306b0ed214702ac4ea829e13a8"
+    },
+    {
+      "arquivo": "evidencias/resultados/execucao_20261102_224647_285820/repeticoes.csv",
+      "sha256": "cb26ced98c65f0f161ef323c374146d84820d25d01cb9521dd32434409925129"
+    },
+    {
+      "arquivo": "evidencias/resultados/execucao_20261102_224647_285820/resultados_tsp.csv",
+      "sha256": "e40306b31c5b0c7b8084976c3ea971ae9f854c8bb6e050fec20f27e25756997e"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233537_bfae1d5700/checkpoint_000021.json",
+      "sha256": "ca8c7d440a3c54aea3a21ec1a0fce95057812123a7f9b9ac4ca263af34086d6e"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233537_bfae1d5700/checkpoint_000022.json",
+      "sha256": "9bcb7603960ae94f121692a4ce69ef767367f2cadb2aff300ba4cd977b4e4618"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233537_bfae1d5700/estado.json",
+      "sha256": "7b1b1ab4d9404338657415d5b6dda99f51da89f7bc45bd9b73fe89a4a4491733"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233537_bfae1d5700/grafico_tsp.png",
+      "sha256": "e0327092dd8e1e88f504ce9279eed425f96c79d77be280ddf893e33a5abfe09b"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233537_bfae1d5700/metadados.json",
+      "sha256": "d37b9778f37385cd29e9aa9cdf2c23fdd15796568dbd331cae125c86fdee7fbb"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233537_bfae1d5700/projecoes.csv",
+      "sha256": "3168dcc06819316ceb0e16839ecc482dc50b9d9fbab9c60a55b1401ffe849bbe"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233537_bfae1d5700/repeticoes.csv",
+      "sha256": "de4c2e716199796d5e8a0ec5e85ab5a62b4ac7f1ee355a4d8a5e9793e84bfa2f"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233537_bfae1d5700/resultados.json",
+      "sha256": "3f576e882ee6d361e185525c842c2a85149f76e17029073c33edf3208e56cdfc"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233537_bfae1d5700/resultados_tsp.csv",
+      "sha256": "5170663f16a98a7c47a08872b273030537d7fb4520e229402edbc19c59f56c80"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233700_4b2e6366d9/checkpoint_000000.json",
+      "sha256": "77adf339218cc2e87a8f992d9c3f2270a18589c2e6383fbede5a7d6969322396"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233700_4b2e6366d9/checkpoint_000001.json",
+      "sha256": "d5c1844baeb4028557bac63180daa1f33f7162dc0ae527103085d5690b45761e"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233700_4b2e6366d9/estado.json",
+      "sha256": "c7c39abf86ad52f593914253c411133cf8353a71b80ebc2d760b539b81bd4169"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233700_4b2e6366d9/grafico_tsp.png",
+      "sha256": "eeb22ecd40ab23768fc8cd9f75434e11e8ace3ef4a21d13d2efbfa8535407f2a"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233700_4b2e6366d9/metadados.json",
+      "sha256": "c45a1a7acd9140348c1aa0a36cd3291b81789cd3f00cc857a0de1f3f3061f64f"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233700_4b2e6366d9/projecoes.csv",
+      "sha256": "34768f3be65ad028409ac6a4b944f2e9635fe2a7a095eea41a085bcec23e67fa"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233700_4b2e6366d9/repeticoes.csv",
+      "sha256": "b3f431f53763ca4b954de1b600bca5e843ef28c98c8dea76ac5df1145a1db2ee"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233700_4b2e6366d9/resultados.json",
+      "sha256": "55276873170a9e76fe53f491d31acb92b5bb18473ab0246bbbf82dca01e8345d"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233700_4b2e6366d9/resultados_tsp.csv",
+      "sha256": "dc0daab235a987dfd055b8fccac8f4b8812e90dff4b2a0b11177be122874f481"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233813_e0856dee12/checkpoint_000007.json",
+      "sha256": "065d12e10ff24d4a9912be5ef4db695aff584aaeadc609a701304a49d93f895a"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233813_e0856dee12/checkpoint_000008.json",
+      "sha256": "cb7b1582500ea38d13a6005c37ed788fd11b79e76dd4515f8ad666a69d5732a3"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233813_e0856dee12/comparacao_repeticoes.csv",
+      "sha256": "767e2efb5efb72d620b0413625a640a560358923142009f476064ff80a9e2a74"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233813_e0856dee12/comparacao_resumo.csv",
+      "sha256": "ea80f82d8fa7712e622ccc59372d1b7c791c71a7dc53a5fff973c18db97d713f"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233813_e0856dee12/estado.json",
+      "sha256": "6f9afe755cfabeff6ab2d84f28f7d01ff282e1f2d5cfc4e6177846de423bb334"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233813_e0856dee12/metadados.json",
+      "sha256": "b2b7ac6ad09fff45d9bf8d3d364b50b1151e04ed406788e57dbebd5c7635fcd3"
+    },
+    {
+      "arquivo": "evidencias/resultados_web/web_20261102_233813_e0856dee12/resultados.json",
+      "sha256": "20ae3d79000b7854ed78bf596aaf166078baf372332174e77c1f90211f77e264"
+    },
+    {
+      "arquivo": "iniciar_web.bat",
+      "sha256": "4a0c5f49f3fbf076de4c116820063bbfce2d028bf392c942d367d06b2deb271c"
+    },
+    {
+      "arquivo": "iniciar_web.py",
+      "sha256": "c900f95c52deded9c0c6eb68ba08b8584351db22eefc0ca7198492f061010697"
+    },
+    {
+      "arquivo": "requirements-web.txt",
+      "sha256": "5211f5a4698c1d9c3f154ee186a839c16f373a20efaa47604734710bcb8063c1"
+    },
+    {
+      "arquivo": "requirements.txt",
+      "sha256": "dbb42ae95f325eb0aa088bd10ace55802915c7117f0cf112ea6c9cb2497baf2b"
+    },
+    {
+      "arquivo": "tests/test_exclusao.py",
+      "sha256": "2903ebbb7efeac4f91acc05ac179c639e1ce9616148881b51d95a7d1abdfd95e"
+    },
+    {
+      "arquivo": "tests/test_prolongados.py",
+      "sha256": "1145c75bfeaf7161543491886211ed3457580650a35c3c2fbdf26b722a491df7"
+    },
+    {
+      "arquivo": "tests/test_tarefas.py",
+      "sha256": "8c8d7deec2591f0adf751f805bb25c8ea55dd69b92cc86dc331a4c1f66bb14ff"
+    },
+    {
+      "arquivo": "tests/test_tsp.py",
+      "sha256": "7202a57e809cc8990d4932b9de10213e573d6fb7c93514704990d9f16d95fcb1"
+    },
+    {
+      "arquivo": "tests/test_web.py",
+      "sha256": "016f58600f0c33209c3eef1876258d128a0ee4898e2594c72f1353ce8ab55096"
+    },
+    {
+      "arquivo": "tools/gerar_pacotes.py",
+      "sha256": "a6c926a163f14a4db4aa07d9084ffcb3bf1c35b9af082424c7c126e24016af2a"
+    },
+    {
+      "arquivo": "tsp_eficiente.py",
+      "sha256": "5a54a1dee89f6dc288e2b57e4f0e162ba1f691d76988f987b4d8cec1e50f1624"
+    },
+    {
+      "arquivo": "tsp_experimentos.py",
+      "sha256": "f546c46d8e93163b49d815f9d2732f928a77d2da87ff3f49c7d62ecd0e5e41d0"
+    },
+    {
+      "arquivo": "tsp_forca_bruta.py",
+      "sha256": "5a8ef38ffebff4485f0ff4471b4b8a93bebde0d8f8a1c0c214ea12f39f040562"
+    },
+    {
+      "arquivo": "web_local/__init__.py",
+      "sha256": "4c995df024985b74be23bba8493b19d4e97e762d22f4c1d14255185033c1de6d"
+    },
+    {
+      "arquivo": "web_local/app.py",
+      "sha256": "92cb7697905115a5ed73618215bd756e97e9ac2100ac7672b2b80f3a519f6d0d"
+    },
+    {
+      "arquivo": "web_local/exclusao.py",
+      "sha256": "5952f4b01457e18688a995602d8f1b9201547957b02fdd15f75289ca04c53379"
+    },
+    {
+      "arquivo": "web_local/historico.py",
+      "sha256": "de74ee17623754a88520b6a52a73a713c0615154bbfa9f093ab2af77ca5a60a1"
+    },
+    {
+      "arquivo": "web_local/static/app.js",
+      "sha256": "611de037d389d402097757c042e912d1902914db128dd5509b0f60721abd76f9"
+    },
+    {
+      "arquivo": "web_local/static/style.css",
+      "sha256": "6b0a9e9e35bf8bfe3000f2e687127142c34979f13696cf9cfc33b00c6ba315ba"
+    },
+    {
+      "arquivo": "web_local/tarefas.py",
+      "sha256": "c7c77b8027588822564747f702ffb1f5113e16942989088b8a078a8951b6bfdd"
+    },
+    {
+      "arquivo": "web_local/templates/index.html",
+      "sha256": "0d58b8752b18582a01f6b85c70ef2089418d9f757bea9227d07470626b8bbd52"
+    },
+    {
+      "arquivo": "web_local/worker.py",
+      "sha256": "765190d77350b7e8698c5c26ec134aed6734e3972ccb9483fd0c16b380b9c9be"
+    }
+  ]
+}

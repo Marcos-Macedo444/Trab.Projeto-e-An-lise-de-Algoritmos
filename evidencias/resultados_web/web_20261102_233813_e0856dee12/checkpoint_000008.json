@@ -1,0 +1,263 @@
+{
+  "sha256": "ee63e6ef6c078704ccf813eb9ebb328d01a41e2cf848e8bac3f1cc2a95d544fe",
+  "dados": {
+    "id": "web_20261102_233813_e0856dee12",
+    "config": {
+      "tipo": "comparacao",
+      "semente": 42,
+      "repeticoes": 2,
+      "avancado": false,
+      "n": 5
+    },
+    "inicio": "2026-11-02T23:38:13.722932-03:00",
+    "instancias": {
+      "5": {
+        "coordenadas": [
+          [
+            35.184625582788264,
+            43.018624599009804
+          ],
+          [
+            45.36708635895742,
+            34.34697408782532
+          ],
+          [
+            51.24443649244089,
+            39.241540145547184
+          ],
+          [
+            4.090872254284261,
+            41.853260739614676
+          ],
+          [
+            2.3659862260269615,
+            10.245584696998078
+          ]
+        ],
+        "matriz": [
+          [
+            0.0,
+            13.37460392110172,
+            16.497996648756676,
+            31.115584021172385,
+            46.380332401223846
+          ],
+          [
+            13.37460392110172,
+            0.0,
+            7.64853067490489,
+            41.95319046405947,
+            49.294741942833944
+          ],
+          [
+            16.497996648756676,
+            7.64853067490489,
+            0.0,
+            47.22583725910468,
+            56.83193057446267
+          ],
+          [
+            31.115584021172385,
+            41.95319046405947,
+            47.22583725910468,
+            0.0,
+            31.6547060739075
+          ],
+          [
+            46.380332401223846,
+            49.294741942833944,
+            56.83193057446267,
+            31.6547060739075,
+            0.0
+          ]
+        ],
+        "origem_coordenadas": "geradas nesta tarefa"
+      }
+    },
+    "plano": [
+      {
+        "n": 5,
+        "modo": "fixo",
+        "algoritmo": "bruta",
+        "repeticoes": 2,
+        "rotas_esperadas": 24,
+        "arestas_esperadas": 120
+      },
+      {
+        "n": 5,
+        "modo": "fixo",
+        "algoritmo": "held_karp",
+        "repeticoes": 2
+      },
+      {
+        "n": 5,
+        "modo": "fixo",
+        "algoritmo": "guloso",
+        "repeticoes": 2
+      },
+      {
+        "n": 5,
+        "modo": "fixo",
+        "algoritmo": "dois_opt",
+        "repeticoes": 2
+      }
+    ],
+    "ambiente": {
+      "python": "3.14.3",
+      "sistema": "Windows-10-10.0.19045-SP1",
+      "processador": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+      "dependencias": {
+        "Flask": "3.1.3",
+        "matplotlib": "3.11.2"
+      }
+    },
+    "hashes_codigo": {
+      "tsp_forca_bruta.py": "81975043c4380c114aa5b1aa228b9277154fbea0d93bf2a0a4436a42aa315c69",
+      "tsp_eficiente.py": "5a54a1dee89f6dc288e2b57e4f0e162ba1f691d76988f987b4d8cec1e50f1624",
+      "tsp_experimentos.py": "caca7be82c581e1bb77ae520f4151b270ee3b177856cd7c47ed55271199c7400",
+      "web_local/worker.py": "881853074f7144e209b10f52e4227f9eb9517e582710122ef303fe24bf96e09b",
+      "web_local/tarefas.py": "bae134a7cd5a45d2dd7d2affa14d39766c7bf7000069961239b05c178b8b5aa7",
+      "web_local/app.py": "7dfe10a066170bd53259de772fe5ed2481533a51b59473e54386ed94678bbd06"
+    },
+    "schema": 1,
+    "sequencia": 8,
+    "amostras": [
+      {
+        "n": 5,
+        "modo": "fixo",
+        "algoritmo": "bruta",
+        "repeticao": 1,
+        "tempo_s": 5.600042641162872e-05,
+        "rota_indices": [
+          0,
+          3,
+          4,
+          1,
+          2
+        ],
+        "custo": 136.21155936157538,
+        "rotas_observadas": 24,
+        "arestas_observadas": 120
+      },
+      {
+        "n": 5,
+        "modo": "fixo",
+        "algoritmo": "bruta",
+        "repeticao": 2,
+        "tempo_s": 5.669984966516495e-05,
+        "rota_indices": [
+          0,
+          3,
+          4,
+          1,
+          2
+        ],
+        "custo": 136.21155936157538,
+        "rotas_observadas": 24,
+        "arestas_observadas": 120
+      },
+      {
+        "n": 5,
+        "modo": "fixo",
+        "algoritmo": "held_karp",
+        "repeticao": 1,
+        "tempo_s": 5.089957267045975e-05,
+        "rota_indices": [
+          0,
+          3,
+          4,
+          1,
+          2
+        ],
+        "custo": 136.21155936157538,
+        "rotas_observadas": null,
+        "arestas_observadas": null
+      },
+      {
+        "n": 5,
+        "modo": "fixo",
+        "algoritmo": "held_karp",
+        "repeticao": 2,
+        "tempo_s": 4.869978874921799e-05,
+        "rota_indices": [
+          0,
+          3,
+          4,
+          1,
+          2
+        ],
+        "custo": 136.21155936157538,
+        "rotas_observadas": null,
+        "arestas_observadas": null
+      },
+      {
+        "n": 5,
+        "modo": "fixo",
+        "algoritmo": "guloso",
+        "repeticao": 1,
+        "tempo_s": 4.020053893327713e-05,
+        "rota_indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "custo": 146.28401033024264,
+        "rotas_observadas": null,
+        "arestas_observadas": null
+      },
+      {
+        "n": 5,
+        "modo": "fixo",
+        "algoritmo": "guloso",
+        "repeticao": 2,
+        "tempo_s": 2.9999762773513794e-05,
+        "rota_indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "custo": 146.28401033024264,
+        "rotas_observadas": null,
+        "arestas_observadas": null
+      },
+      {
+        "n": 5,
+        "modo": "fixo",
+        "algoritmo": "dois_opt",
+        "repeticao": 1,
+        "tempo_s": 6.120000034570694e-05,
+        "rota_indices": [
+          0,
+          2,
+          1,
+          4,
+          3
+        ],
+        "custo": 136.21155936157538,
+        "rotas_observadas": null,
+        "arestas_observadas": null
+      },
+      {
+        "n": 5,
+        "modo": "fixo",
+        "algoritmo": "dois_opt",
+        "repeticao": 2,
+        "tempo_s": 4.62997704744339e-05,
+        "rota_indices": [
+          0,
+          2,
+          1,
+          4,
+          3
+        ],
+        "custo": 136.21155936157538,
+        "rotas_observadas": null,
+        "arestas_observadas": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+test_bloqueia_todas_as_fases_ativas_e_exportacao (test_exclusao.Exclusao.test_bloqueia_todas_as_fases_ativas_e_exportacao) ... ok
+test_confirmacao_desatualizada (test_exclusao.Exclusao.test_confirmacao_desatualizada) ... ok
+test_evidencias_oficiais_cli_web_sao_preservadas (test_exclusao.Exclusao.test_evidencias_oficiais_cli_web_sao_preservadas) ... ok
+test_excluir_web_cli_preserva_codigo_testes_e_outras_pastas (test_exclusao.Exclusao.test_excluir_web_cli_preserva_codigo_testes_e_outras_pastas) ... ok
+test_exige_confirmacao_e_permite_desistir_sem_mutacao (test_exclusao.Exclusao.test_exige_confirmacao_e_permite_desistir_sem_mutacao) ... ok
+test_falha_de_permissao_explicita_e_historico_coerente (test_exclusao.Exclusao.test_falha_de_permissao_explicita_e_historico_coerente) ... ok
+test_historico_vazio (test_exclusao.Exclusao.test_historico_vazio) ... ok
+test_recusa_caminhos_fora_das_bases (test_exclusao.Exclusao.test_recusa_caminhos_fora_das_bases) ... ok
+test_recusa_juncoes_e_links_sem_atravessar (test_exclusao.Exclusao.test_recusa_juncoes_e_links_sem_atravessar) ... ok
+test_snapshot_excluido_do_historico_nao_e_regravado (test_exclusao.Exclusao.test_snapshot_excluido_do_historico_nao_e_regravado) ... ok
+test_forca_bruta_real_n13_cancelavel_sem_callback_no_solver (test_prolongados.Prolongados.test_forca_bruta_real_n13_cancelavel_sem_callback_no_solver) ... ok
+test_limite_interrompe_sem_inventar_medicao_e_recupera (test_prolongados.Prolongados.test_limite_interrompe_sem_inventar_medicao_e_recupera) ... ok
+test_limite_preserva_checkpoint_de_repeticao_completa (test_prolongados.Prolongados.test_limite_preserva_checkpoint_de_repeticao_completa) ... ok
+test_limites_e_duracao_invalidos (test_prolongados.Prolongados.test_limites_e_duracao_invalidos) ... ok
+test_plano_20_contagens_exatas_sem_iniciar_solver (test_prolongados.Prolongados.test_plano_20_contagens_exatas_sem_iniciar_solver) ... ok
+test_sem_limite_tempo_decorrido_e_cancelamento (test_prolongados.Prolongados.test_sem_limite_tempo_decorrido_e_cancelamento) ... ok
+test_cancelar_antes_de_comecar (test_tarefas.Tarefas.test_cancelar_antes_de_comecar) ... ok
+test_cancelar_aquecimento (test_tarefas.Tarefas.test_cancelar_aquecimento) ... ok
+test_cancelar_calculo (test_tarefas.Tarefas.test_cancelar_calculo) ... ok
+test_cancelar_exportacao_preserva_concluidas (test_tarefas.Tarefas.test_cancelar_exportacao_preserva_concluidas) ... ok
+test_comparacao_sem_contadores_inventados (test_tarefas.Tarefas.test_comparacao_sem_contadores_inventados) ... ok
+test_encerramento_normal_e_lock (test_tarefas.Tarefas.test_encerramento_normal_e_lock) ... ok
+test_falha_do_filho_e_figura_preserva_csv (test_tarefas.Tarefas.test_falha_do_filho_e_figura_preserva_csv) ... ok
+test_falha_eof_zero_amostras (test_tarefas.Tarefas.test_falha_eof_zero_amostras) ... ok
+test_falha_exportacao_e_recuperacao (test_tarefas.Tarefas.test_falha_exportacao_e_recuperacao) ... ok
+test_recuperar_checkpoint_mais_novo_que_manifesto (test_tarefas.Tarefas.test_recuperar_checkpoint_mais_novo_que_manifesto) ... ok
+test_resposta_tardia_cancelada_e_amostra_aceita (test_tarefas.Tarefas.test_resposta_tardia_cancelada_e_amostra_aceita) ... ok
+test_resultado_invalido_nao_entra_no_checkpoint (test_tarefas.Tarefas.test_resultado_invalido_nao_entra_no_checkpoint) ... ok
+test_spawn_real_equivalencia_checkpoint_e_exportacao (test_tarefas.Tarefas.test_spawn_real_equivalencia_checkpoint_e_exportacao) ... ok
+test_worker_clock_aquecimento_e_protocolo (test_tarefas.Tarefas.test_worker_clock_aquecimento_e_protocolo) ... ok
+test_contagem_e_retorno (test_tsp.Correção.test_contagem_e_retorno) ... ok
+test_guloso_e_zero (test_tsp.Correção.test_guloso_e_zero) ... ok
+test_invalidos (test_tsp.Correção.test_invalidos) ... ok
+test_oraculo_aleatorio (test_tsp.Correção.test_oraculo_aleatorio) ... ok
+test_otimos_conhecidos (test_tsp.Correção.test_otimos_conhecidos) ... ok
+test_permutacoes (test_tsp.Correção.test_permutacoes) ... ok
+test_cli_invalida (test_tsp.Exportação.test_cli_invalida) ... ok
+test_execucao_completa (test_tsp.Exportação.test_execucao_completa) ... ok
+test_interrupcao (test_tsp.Exportação.test_interrupcao) ... ok
+test_mesma_matriz_e_sem_amostras (test_tsp.Exportação.test_mesma_matriz_e_sem_amostras) ... ok
+test_download_consistencia_e_restricoes (test_web.Web.test_download_consistencia_e_restricoes) ... ok
+test_fluxo_lancador_ctrl_c_encerra_filho (test_web.Web.test_fluxo_lancador_ctrl_c_encerra_filho) ... ok
+test_historico_somente_leitura_n12 (test_web.Web.test_historico_somente_leitura_n12) ... ok
+test_http_durante_calculo_concorrencia_cancelamento (test_web.Web.test_http_durante_calculo_concorrencia_cancelamento) ... ok
+test_importacoes_sem_efeitos_colaterais (test_web.Web.test_importacoes_sem_efeitos_colaterais) ... ok
+test_lancador_porta_ocupada (test_web.Web.test_lancador_porta_ocupada) ... ok
+test_validacao_e_limites (test_web.Web.test_validacao_e_limites) ... ok
+
+----------------------------------------------------------------------
+Ran 47 tests in 15.097s
+
+OK

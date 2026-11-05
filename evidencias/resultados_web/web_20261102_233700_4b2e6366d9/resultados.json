@@ -1,0 +1,288 @@
+{
+  "schema": 1,
+  "origem": "web",
+  "config": {
+    "tipo": "demo",
+    "semente": 42,
+    "repeticoes": 1,
+    "avancado": false,
+    "n": 5
+  },
+  "amostras": [
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticao": 1,
+      "tempo_s": 8.169934153556824e-05,
+      "rota_indices": [
+        0,
+        3,
+        4,
+        1,
+        2
+      ],
+      "custo": 136.21155936157538,
+      "rotas_observadas": 24,
+      "arestas_observadas": 120
+    }
+  ],
+  "resumo": [
+    {
+      "n": 5,
+      "modo": "fixo",
+      "repeticoes_concluidas": 1,
+      "tempo_s": 8.169934153556824e-05,
+      "minimo_s": 8.169934153556824e-05,
+      "maximo_s": 8.169934153556824e-05,
+      "rotas_observadas_por_execucao": 24,
+      "arestas_observadas_por_execucao": 120,
+      "rotas_esperadas_por_execucao": 24,
+      "arestas_esperadas_por_execucao": 120,
+      "custo_otimo": 136.21155936157538,
+      "rota_otima": "v1 -> v4 -> v5 -> v2 -> v3 -> v1",
+      "repeticoes_previstas": 1,
+      "parcial": false
+    }
+  ],
+  "c": 6.808278461297353e-07,
+  "c_provisorio": false,
+  "projecoes": [
+    {
+      "n": 3,
+      "rotas_fixas": 2,
+      "rotas_sem_fixar": 6,
+      "arestas_fixas": 6,
+      "arestas_sem_fixar": 18,
+      "tempo_estimado_s": 4.084967076778412e-06,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 4,
+      "rotas_fixas": 6,
+      "rotas_sem_fixar": 24,
+      "arestas_fixas": 24,
+      "arestas_sem_fixar": 96,
+      "tempo_estimado_s": 1.6339868307113647e-05,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 5,
+      "rotas_fixas": 24,
+      "rotas_sem_fixar": 120,
+      "arestas_fixas": 120,
+      "arestas_sem_fixar": 600,
+      "tempo_estimado_s": 8.169934153556824e-05,
+      "natureza": "ajuste_na_amostra"
+    },
+    {
+      "n": 6,
+      "rotas_fixas": 120,
+      "rotas_sem_fixar": 720,
+      "arestas_fixas": 720,
+      "arestas_sem_fixar": 4320,
+      "tempo_estimado_s": 0.0004901960492134094,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 7,
+      "rotas_fixas": 720,
+      "rotas_sem_fixar": 5040,
+      "arestas_fixas": 5040,
+      "arestas_sem_fixar": 35280,
+      "tempo_estimado_s": 0.003431372344493866,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 8,
+      "rotas_fixas": 5040,
+      "rotas_sem_fixar": 40320,
+      "arestas_fixas": 40320,
+      "arestas_sem_fixar": 322560,
+      "tempo_estimado_s": 0.027450978755950928,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 9,
+      "rotas_fixas": 40320,
+      "rotas_sem_fixar": 362880,
+      "arestas_fixas": 362880,
+      "arestas_sem_fixar": 3265920,
+      "tempo_estimado_s": 0.24705880880355835,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 10,
+      "rotas_fixas": 362880,
+      "rotas_sem_fixar": 3628800,
+      "arestas_fixas": 3628800,
+      "arestas_sem_fixar": 36288000,
+      "tempo_estimado_s": 2.4705880880355835,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 11,
+      "rotas_fixas": 3628800,
+      "rotas_sem_fixar": 39916800,
+      "arestas_fixas": 39916800,
+      "arestas_sem_fixar": 439084800,
+      "tempo_estimado_s": 27.17646896839142,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 12,
+      "rotas_fixas": 39916800,
+      "rotas_sem_fixar": 479001600,
+      "arestas_fixas": 479001600,
+      "arestas_sem_fixar": 5748019200,
+      "tempo_estimado_s": 326.117627620697,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 13,
+      "rotas_fixas": 479001600,
+      "rotas_sem_fixar": 6227020800,
+      "arestas_fixas": 6227020800,
+      "arestas_sem_fixar": 80951270400,
+      "tempo_estimado_s": 4239.529159069061,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 14,
+      "rotas_fixas": 6227020800,
+      "rotas_sem_fixar": 87178291200,
+      "arestas_fixas": 87178291200,
+      "arestas_sem_fixar": 1220496076800,
+      "tempo_estimado_s": 59353.40822696686,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 15,
+      "rotas_fixas": 87178291200,
+      "rotas_sem_fixar": 1307674368000,
+      "arestas_fixas": 1307674368000,
+      "arestas_sem_fixar": 19615115520000,
+      "tempo_estimado_s": 890301.1234045029,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 16,
+      "rotas_fixas": 1307674368000,
+      "rotas_sem_fixar": 20922789888000,
+      "arestas_fixas": 20922789888000,
+      "arestas_sem_fixar": 334764638208000,
+      "tempo_estimado_s": 14244817.974472046,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 17,
+      "rotas_fixas": 20922789888000,
+      "rotas_sem_fixar": 355687428096000,
+      "arestas_fixas": 355687428096000,
+      "arestas_sem_fixar": 6046686277632000,
+      "tempo_estimado_s": 242161905.56602478,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 18,
+      "rotas_fixas": 355687428096000,
+      "rotas_sem_fixar": 6402373705728000,
+      "arestas_fixas": 6402373705728000,
+      "arestas_sem_fixar": 115242726703104000,
+      "tempo_estimado_s": 4358914300.188446,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 19,
+      "rotas_fixas": 6402373705728000,
+      "rotas_sem_fixar": 121645100408832000,
+      "arestas_fixas": 121645100408832000,
+      "arestas_sem_fixar": 2311256907767808000,
+      "tempo_estimado_s": 82819371703.58047,
+      "natureza": "estimativa_extrapolada"
+    },
+    {
+      "n": 20,
+      "rotas_fixas": 121645100408832000,
+      "rotas_sem_fixar": 2432902008176640000,
+      "arestas_fixas": 2432902008176640000,
+      "arestas_sem_fixar": 48658040163532800000,
+      "tempo_estimado_s": 1656387434071.6094,
+      "natureza": "estimativa_extrapolada"
+    }
+  ],
+  "instancias": {
+    "5": {
+      "coordenadas": [
+        [
+          35.184625582788264,
+          43.018624599009804
+        ],
+        [
+          45.36708635895742,
+          34.34697408782532
+        ],
+        [
+          51.24443649244089,
+          39.241540145547184
+        ],
+        [
+          4.090872254284261,
+          41.853260739614676
+        ],
+        [
+          2.3659862260269615,
+          10.245584696998078
+        ]
+      ],
+      "matriz": [
+        [
+          0.0,
+          13.37460392110172,
+          16.497996648756676,
+          31.115584021172385,
+          46.380332401223846
+        ],
+        [
+          13.37460392110172,
+          0.0,
+          7.64853067490489,
+          41.95319046405947,
+          49.294741942833944
+        ],
+        [
+          16.497996648756676,
+          7.64853067490489,
+          0.0,
+          47.22583725910468,
+          56.83193057446267
+        ],
+        [
+          31.115584021172385,
+          41.95319046405947,
+          47.22583725910468,
+          0.0,
+          31.6547060739075
+        ],
+        [
+          46.380332401223846,
+          49.294741942833944,
+          56.83193057446267,
+          31.6547060739075,
+          0.0
+        ]
+      ],
+      "origem_coordenadas": "geradas nesta tarefa"
+    }
+  },
+  "plano": [
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticoes": 1,
+      "rotas_esperadas": 24,
+      "arestas_esperadas": 120
+    }
+  ]
+}

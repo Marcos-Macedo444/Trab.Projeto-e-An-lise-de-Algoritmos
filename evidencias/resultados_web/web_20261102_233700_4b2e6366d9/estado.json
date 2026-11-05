@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "web_20261102_233700_4b2e6366d9",
+  "config": {
+    "tipo": "demo",
+    "semente": 42,
+    "repeticoes": 1,
+    "avancado": false,
+    "n": 5
+  },
+  "inicio": "2026-11-02T23:37:00.822935-03:00",
+  "fim": "2026-11-02T23:37:01.085515-03:00",
+  "estado": "concluido",
+  "razao": null,
+  "sequencia": 1,
+  "concluidas": 1,
+  "planejadas": 1,
+  "atual": null,
+  "cancelamento": false,
+  "arquivos": [
+    "repeticoes.csv",
+    "resultados_tsp.csv",
+    "projecoes.csv",
+    "resultados.json",
+    "metadados.json",
+    "grafico_tsp.png",
+    "tarefa.zip"
+  ],
+  "duracao_total_s": 0.2550373999401927,
+  "origem": "web"
+}

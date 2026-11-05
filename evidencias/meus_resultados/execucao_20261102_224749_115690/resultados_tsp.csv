@@ -1,0 +1,3 @@
+n;modo;repeticoes_concluidas;tempo_s;minimo_s;maximo_s;rotas_observadas_por_execucao;arestas_observadas_por_execucao;rotas_esperadas_por_execucao;arestas_esperadas_por_execucao;custo_otimo;rota_otima;tempo_modelo_c_n_fatorial_s
+10;fixo;1;0.6152868000790477;0.6152868000790477;0.6152868000790477;362880;3628800;362880;3628800;244.90746601855554;v1 -> v4 -> v5 -> v3 -> v2 -> v10 -> v6 -> v9 -> v8 -> v7 -> v1;0.5923796967206308
+11;fixo;1;6.514094199985266;6.514094199985266;6.514094199985266;3628800;39916800;3628800;39916800;324.80701988172257;v1 -> v6 -> v2 -> v11 -> v9 -> v10 -> v5 -> v8 -> v7 -> v3 -> v4 -> v1;6.51617666392694

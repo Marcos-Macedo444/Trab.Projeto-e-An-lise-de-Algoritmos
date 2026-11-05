@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Problema do Caixeiro Viajante</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script defer src="{{ url_for('static', filename='app.js') }}"></script>
+</head>
+<body>
+<a class="skip" href="#experimento">Ir para o experimento</a>
+<header><h1>Problema do Caixeiro Viajante</h1><nav aria-label="Seções"><a href="#experimento">Experimento</a><a href="#resultados">Resultados</a><a href="#historico-area">Histórico</a></nav></header>
+<main>
+<div id="erro" role="alert" hidden></div>
+<div class="layout">
+<section id="experimento" class="card" aria-labelledby="titulo-experimento">
+<h2 id="titulo-experimento">Experimento</h2>
+<form id="config">
+<label for="tipo">Método de análise</label><select id="tipo"><option value="benchmark">Força bruta</option><option value="demo">Demonstração da rota</option><option value="comparacao">Comparar algoritmos</option></select>
+<p id="tipo-ajuda" class="hint"></p>
+<div id="faixa" class="form-grid"><div><label for="nmin">Cidades: mínimo</label><input id="nmin" type="number" min="3" max="10" value="3" required></div><div><label for="nmax">Cidades: máximo</label><input id="nmax" type="number" min="3" max="10" value="10" required></div></div>
+<div id="unica" hidden><label for="n">Número de cidades</label><input id="n" type="number" min="3" max="10" value="5" required></div>
+<div class="form-grid"><div><label for="repeticoes">Repetições</label><input id="repeticoes" type="number" min="1" max="100" value="3" required></div><div><label for="semente">Semente</label><input id="semente" type="number" min="-1000000000" max="1000000000" value="42" required></div></div>
+<div id="livre"><label class="check"><input id="sem-fixar" type="checkbox"> Comparar sem fixar a origem</label></div>
+<details class="advanced"><summary>Opções avançadas</summary>
+<label class="check"><input id="avancado" type="checkbox"> Permitir execução prolongada</label>
+<p id="limites-ajuda" class="hint"></p>
+<button type="button" id="preparar-longo" class="secondary">Preparar faixa prolongada (10 a 14)</button>
+<div id="teto-livre" hidden><label for="nmax-sem-fixar">Máximo sem fixar a origem</label><input id="nmax-sem-fixar" type="number" min="3" max="8" value="8" required></div>
+<label for="limite-segundos">Limite por repetição (segundos)</label><input id="limite-segundos" type="number" min="0" max="604800" value="0" required><p class="hint">0 = sem limite. Ao atingir o prazo, a tarefa para e preserva as chamadas completas.</p>
+</details>
+<button type="button" id="planejar" class="secondary">Conferir plano</button>
+<div id="plano" class="plan" aria-live="polite">Confira o plano antes de iniciar.</div>
+<button type="submit" id="iniciar" class="primary">Iniciar experimento</button>
+</form>
+<div class="execution" aria-labelledby="estado"><h3 id="estado" aria-live="polite">Pronto</h3>
+<div class="progress"><progress id="barra" max="1" value="0" aria-label="Chamadas concluídas"></progress><strong id="contagem">0 / 0 chamadas</strong></div>
+<p id="atividade">Nenhum experimento em andamento.</p><p id="config-usada" class="hint"></p><p id="chamada-decorrida" class="hint"></p><p id="duracao" class="hint"></p><p id="razao" class="hint"></p>
+<button id="cancelar" class="danger" type="button" disabled>Cancelar experimento</button></div>
+</section>
+<section id="resultados" class="card" aria-labelledby="titulo-resultados">
+<h2 id="titulo-resultados">Resultados</h2>
+<div class="form-grid"><div><label for="instancia">Instância</label><select id="instancia"><option value="">Nenhuma instância</option></select></div><div><label for="solucao">Rota calculada</label><select id="solucao"><option value="">Nenhum resultado ainda</option></select></div></div>
+<svg id="mapa" viewBox="0 0 600 340" role="img" aria-label="Cidades e rota"><text x="300" y="170" text-anchor="middle">Nenhum resultado ainda</text></svg>
+<div class="route-info"><strong id="custo">Custo: —</strong><p id="rota">Nenhuma rota concluída.</p><p id="coordenadas" class="hint"></p></div>
+<details><summary>Matriz de custos</summary><div id="matriz" class="table-wrap"></div></details>
+<h3>Resumo</h3><p id="c-ajuste" class="hint">Nenhum resultado ainda.</p><div id="resumo" class="table-wrap"><p class="empty">Nenhum resultado ainda.</p></div>
+<details><summary>Amostras individuais</summary><div id="amostras" class="table-wrap"></div></details>
+<div id="grafico-area" hidden><h3>Tempo medido e modelo fatorial</h3><img id="grafico" alt="Tempos medidos e curva c vezes n fatorial, em escalas linear e logarítmica"></div>
+<details><summary>Projeções estimadas</summary><div id="projecoes" class="table-wrap"></div></details>
+<h3>Arquivos</h3><div id="downloads" class="downloads"><p class="hint">Disponíveis ao finalizar o experimento.</p></div>
+</section></div>
+<section id="historico-area" class="card" aria-labelledby="titulo-historico"><h2 id="titulo-historico">Histórico</h2><label for="historico">Execução salva</label><select id="historico"><option value="">Selecione uma execução</option></select><p class="hint">Evidências oficiais são preservadas. A exclusão remove apenas os experimentos de trabalho e fica bloqueada enquanto houver uma tarefa ativa.</p><button id="excluir-todos" class="danger" disabled>Excluir histórico</button><p id="exclusao-resultado" role="status"></p></section>
+</main>
+<footer>Força bruta: (n−1)! rotas, n arestas por rota e Θ(n!) de tempo. Execução local.</footer>
+</body></html>

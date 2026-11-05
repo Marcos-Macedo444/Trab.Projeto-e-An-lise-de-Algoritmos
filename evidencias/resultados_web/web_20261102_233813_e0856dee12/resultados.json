@@ -1,0 +1,310 @@
+{
+  "schema": 1,
+  "origem": "web",
+  "config": {
+    "tipo": "comparacao",
+    "semente": 42,
+    "repeticoes": 2,
+    "avancado": false,
+    "n": 5
+  },
+  "amostras": [
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticao": 1,
+      "tempo_s": 5.600042641162872e-05,
+      "rota_indices": [
+        0,
+        3,
+        4,
+        1,
+        2
+      ],
+      "custo": 136.21155936157538,
+      "rotas_observadas": 24,
+      "arestas_observadas": 120
+    },
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticao": 2,
+      "tempo_s": 5.669984966516495e-05,
+      "rota_indices": [
+        0,
+        3,
+        4,
+        1,
+        2
+      ],
+      "custo": 136.21155936157538,
+      "rotas_observadas": 24,
+      "arestas_observadas": 120
+    },
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "held_karp",
+      "repeticao": 1,
+      "tempo_s": 5.089957267045975e-05,
+      "rota_indices": [
+        0,
+        3,
+        4,
+        1,
+        2
+      ],
+      "custo": 136.21155936157538,
+      "rotas_observadas": null,
+      "arestas_observadas": null
+    },
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "held_karp",
+      "repeticao": 2,
+      "tempo_s": 4.869978874921799e-05,
+      "rota_indices": [
+        0,
+        3,
+        4,
+        1,
+        2
+      ],
+      "custo": 136.21155936157538,
+      "rotas_observadas": null,
+      "arestas_observadas": null
+    },
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "guloso",
+      "repeticao": 1,
+      "tempo_s": 4.020053893327713e-05,
+      "rota_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "custo": 146.28401033024264,
+      "rotas_observadas": null,
+      "arestas_observadas": null
+    },
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "guloso",
+      "repeticao": 2,
+      "tempo_s": 2.9999762773513794e-05,
+      "rota_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "custo": 146.28401033024264,
+      "rotas_observadas": null,
+      "arestas_observadas": null
+    },
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "dois_opt",
+      "repeticao": 1,
+      "tempo_s": 6.120000034570694e-05,
+      "rota_indices": [
+        0,
+        2,
+        1,
+        4,
+        3
+      ],
+      "custo": 136.21155936157538,
+      "rotas_observadas": null,
+      "arestas_observadas": null
+    },
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "dois_opt",
+      "repeticao": 2,
+      "tempo_s": 4.62997704744339e-05,
+      "rota_indices": [
+        0,
+        2,
+        1,
+        4,
+        3
+      ],
+      "custo": 136.21155936157538,
+      "rotas_observadas": null,
+      "arestas_observadas": null
+    }
+  ],
+  "resumo": [
+    {
+      "algoritmo": "bruta",
+      "n": 5,
+      "modo": "fixo",
+      "repeticoes_concluidas": 2,
+      "tempo_s": 5.6350138038396835e-05,
+      "minimo_s": 5.600042641162872e-05,
+      "maximo_s": 5.669984966516495e-05,
+      "custo": 136.21155936157538,
+      "exato": true,
+      "erro_percentual": 0.0,
+      "rotas_observadas_por_execucao": 24,
+      "arestas_observadas_por_execucao": 120,
+      "repeticoes_previstas": 2,
+      "parcial": false
+    },
+    {
+      "algoritmo": "held_karp",
+      "n": 5,
+      "modo": "fixo",
+      "repeticoes_concluidas": 2,
+      "tempo_s": 4.979968070983887e-05,
+      "minimo_s": 4.869978874921799e-05,
+      "maximo_s": 5.089957267045975e-05,
+      "custo": 136.21155936157538,
+      "exato": true,
+      "erro_percentual": 0.0,
+      "rotas_observadas_por_execucao": null,
+      "arestas_observadas_por_execucao": null,
+      "repeticoes_previstas": 2,
+      "parcial": false
+    },
+    {
+      "algoritmo": "guloso",
+      "n": 5,
+      "modo": "fixo",
+      "repeticoes_concluidas": 2,
+      "tempo_s": 3.510015085339546e-05,
+      "minimo_s": 2.9999762773513794e-05,
+      "maximo_s": 4.020053893327713e-05,
+      "custo": 146.28401033024264,
+      "exato": false,
+      "erro_percentual": 7.394710857049805,
+      "rotas_observadas_por_execucao": null,
+      "arestas_observadas_por_execucao": null,
+      "repeticoes_previstas": 2,
+      "parcial": false
+    },
+    {
+      "algoritmo": "dois_opt",
+      "n": 5,
+      "modo": "fixo",
+      "repeticoes_concluidas": 2,
+      "tempo_s": 5.374988541007042e-05,
+      "minimo_s": 4.62997704744339e-05,
+      "maximo_s": 6.120000034570694e-05,
+      "custo": 136.21155936157538,
+      "exato": false,
+      "erro_percentual": 0.0,
+      "rotas_observadas_por_execucao": null,
+      "arestas_observadas_por_execucao": null,
+      "repeticoes_previstas": 2,
+      "parcial": false
+    }
+  ],
+  "c": null,
+  "c_provisorio": false,
+  "projecoes": [],
+  "instancias": {
+    "5": {
+      "coordenadas": [
+        [
+          35.184625582788264,
+          43.018624599009804
+        ],
+        [
+          45.36708635895742,
+          34.34697408782532
+        ],
+        [
+          51.24443649244089,
+          39.241540145547184
+        ],
+        [
+          4.090872254284261,
+          41.853260739614676
+        ],
+        [
+          2.3659862260269615,
+          10.245584696998078
+        ]
+      ],
+      "matriz": [
+        [
+          0.0,
+          13.37460392110172,
+          16.497996648756676,
+          31.115584021172385,
+          46.380332401223846
+        ],
+        [
+          13.37460392110172,
+          0.0,
+          7.64853067490489,
+          41.95319046405947,
+          49.294741942833944
+        ],
+        [
+          16.497996648756676,
+          7.64853067490489,
+          0.0,
+          47.22583725910468,
+          56.83193057446267
+        ],
+        [
+          31.115584021172385,
+          41.95319046405947,
+          47.22583725910468,
+          0.0,
+          31.6547060739075
+        ],
+        [
+          46.380332401223846,
+          49.294741942833944,
+          56.83193057446267,
+          31.6547060739075,
+          0.0
+        ]
+      ],
+      "origem_coordenadas": "geradas nesta tarefa"
+    }
+  },
+  "plano": [
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "bruta",
+      "repeticoes": 2,
+      "rotas_esperadas": 24,
+      "arestas_esperadas": 120
+    },
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "held_karp",
+      "repeticoes": 2
+    },
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "guloso",
+      "repeticoes": 2
+    },
+    {
+      "n": 5,
+      "modo": "fixo",
+      "algoritmo": "dois_opt",
+      "repeticoes": 2
+    }
+  ]
+}
